@@ -26,3 +26,8 @@ func searchRange(nums []int, target int) []int {
 	}
 	return res
 }
+
+func main() {
+	nums := []int{2, 7, 11, 15}
+	searchRange(nums, 7)
+}
